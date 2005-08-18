@@ -9,7 +9,7 @@ Summary:	Test::Pod::Coverage - Check for POD coverage in your CPAN distribution
 Summary(pl):	Test::Pod::Coverage - sprzedzanie pokrycia POD w pakiecie CPAN
 Name:		perl-Test-Pod-Coverage
 Version:	1.06
-Release:	0.1
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
