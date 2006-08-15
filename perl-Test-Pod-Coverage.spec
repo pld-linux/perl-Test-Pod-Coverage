@@ -21,6 +21,7 @@ BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl-Pod-Coverage
 BuildRequires:	perl-Test-Builder-Tester
+BuildRequires:	perl-Test-Pod >= 1.14
 %endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
