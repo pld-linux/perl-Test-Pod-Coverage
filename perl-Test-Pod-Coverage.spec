@@ -6,7 +6,7 @@
 %define	pdir	Test
 %define	pnam	Pod-Coverage
 Summary:	Test::Pod::Coverage - check for POD coverage in your CPAN distribution
-Summary(pl):	Test::Pod::Coverage - sprawdzanie pokrycia POD w pakiecie CPAN
+Summary(pl.UTF-8):   Test::Pod::Coverage - sprawdzanie pokrycia POD w pakiecie CPAN
 Name:		perl-Test-Pod-Coverage
 Version:	1.08
 Release:	1
@@ -32,8 +32,8 @@ Checks for POD coverage in files for your CPAN distribution.
   use Test::Pod::Coverage tests=>1;
   pod_coverage_ok( "Foo::Bar", "Foo::Bar is covered" );
 
-%description -l pl
-Ten modu³ sprawdza pokrycie POD w plikach dla pakietu CPAN.
+%description -l pl.UTF-8
+Ten moduÅ‚ sprawdza pokrycie POD w plikach dla pakietu CPAN.
 
   use Test::Pod::Coverage tests=>1;
   pod_coverage_ok( "Foo::Bar", "Foo::Bar jest pokryte" );
