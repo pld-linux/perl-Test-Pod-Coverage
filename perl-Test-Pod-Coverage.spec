@@ -13,9 +13,9 @@ Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Test/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	33405cca7c75b7b89c06ba30eea66692
-URL:		http://search.cpan.org/dist/Test-Pod-Coverage
+URL:		http://search.cpan.org/dist/Test-Pod-Coverage/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
@@ -61,5 +61,5 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc Changes
 %dir %{perl_vendorlib}/Test/Pod
-%{perl_vendorlib}/Test/Pod/*.pm
-%{_mandir}/man3/*
+%{perl_vendorlib}/Test/Pod/Coverage.pm
+%{_mandir}/man3/Test::Pod::Coverage.3pm*
