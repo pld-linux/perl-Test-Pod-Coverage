@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	Test
 %define	pnam	Pod-Coverage
 Summary:	Test::Pod::Coverage - check for POD coverage in your CPAN distribution
