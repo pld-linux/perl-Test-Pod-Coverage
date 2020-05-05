@@ -14,9 +14,10 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Test/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	c9ea5f4182415b13d2db18484a38c01b
-URL:		http://search.cpan.org/dist/Test-Pod-Coverage/
+URL:		https://metacpan.org/release/Test-Pod-Coverage
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	rpmbuild(macros) >= 1.745
 %if %{with tests}
 BuildRequires:	perl-Pod-Coverage
 BuildRequires:	perl-Test-Pod >= 1.14
